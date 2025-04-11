@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+ 
+body {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Header {
+    height: 15%;
+    margin: 5px;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-content: space-between;
+}
+
+.Title {
+    margin-left: 10px;
+}
+
+nav {
+
+    margin-left: auto;
+    margin-right: 10px;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 5px;
+}
+
+a:hover {
+    color: lightgrey;
+}
+
+.Content {
+    margin: 15px;
+}
+
+.ProductPage {
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.LeftSide {
+    flex: 55;
+}
+
+.RightSide {
+    flex: 45;
+}
+
+.FstImg {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.FirstImg {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 30%;
+
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.OtherImg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.TitlePrice {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+button {
+    margin-top: 10px;
+    padding: 1em;
+    background-color: grey;
+    color: white;
+}
